@@ -6,14 +6,16 @@ namespace Metotlar
 {
     class SepetManager
     {
-        public void Ekle(Urun urun) 
+        //naming convention
+        //syntax
+        public void Ekle(Urun urun)
         {
-            Console.WriteLine("Sepete eklendi :"+ urun.Adi);
+            Console.WriteLine("Tebrikler. Sepete eklendi : " + urun.Adi);
         }
 
-        public void Ekle2(string urunAdi,string aciklama, double fiyat,int stokAdedi)
+        public void Ekle2(string urunAdi, string aciklama, double fiyat, int stokAdedi)
         {
-            Console.WriteLine("Sepete eklendi :" + urunAdi);
+            Console.WriteLine("Tebrikler. Sepete eklendi : " + urunAdi);
         }
     }
 }
